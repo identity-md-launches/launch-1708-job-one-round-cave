@@ -1,0 +1,38 @@
+{
+  "new_suite": {
+    "command": "python3 -B -m unittest discover -s line-4/tools/return-bounds -v",
+    "passed": 17
+  },
+  "dependency_checks": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/release-gate",
+        "-v"
+      ],
+      "exit": 0,
+      "output": "test_all_call_fields_are_bound (test_release_gate.ReleaseGateTests.test_all_call_fields_are_bound) ... ok\ntest_cli_check_and_bad_request_exit (test_release_gate.ReleaseGateTests.test_cli_check_and_bad_request_exit) ... ok\ntest_demo_never_uses_network (test_release_gate.ReleaseGateTests.test_demo_never_uses_network) ... ok\ntest_expired_matching_set_is_not_ready (test_release_gate.ReleaseGateTests.test_expired_matching_set_is_not_ready) ... ok\ntest_incomplete_set_is_inconclusive (test_release_gate.ReleaseGateTests.test_incomplete_set_is_inconclusive) ... ok\ntest_inputs_are_not_changed (test_release_gate.ReleaseGateTests.test_inputs_are_not_changed) ... ok\ntest_real_zto_request_is_ready (test_release_gate.ReleaseGateTests.test_real_zto_request_is_ready) ... ok\ntest_request_schema_is_strict (test_release_gate.ReleaseGateTests.test_request_schema_is_strict) ... ok\ntest_set_mismatch_propagates (test_release_gate.ReleaseGateTests.test_set_mismatch_propagates) ... ok\ntest_unknown_member_refuses_even_if_call_matches_another (test_release_gate.ReleaseGateTests.test_unknown_member_refuses_even_if_call_matches_another) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.017s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/return-lens",
+        "-v"
+      ],
+      "exit": 0,
+      "output": "test_cli_demo_and_invalid_layout (test_return_lens.ReturnLensTests.test_cli_demo_and_invalid_layout) ... ok\ntest_dynamic_corruption (test_return_lens.ReturnLensTests.test_dynamic_corruption) ... ok\ntest_dynamic_tuple_and_utf8_byte_length (test_return_lens.ReturnLensTests.test_dynamic_tuple_and_utf8_byte_length) ... ok\ntest_empty_dynamic_and_int256_boundaries (test_return_lens.ReturnLensTests.test_empty_dynamic_and_int256_boundaries) ... ok\ntest_evidence_validation (test_return_lens.ReturnLensTests.test_evidence_validation) ... ok\ntest_invalid_type_lists (test_return_lens.ReturnLensTests.test_invalid_type_lists) ... ok\ntest_invalid_utf8_is_inconclusive (test_return_lens.ReturnLensTests.test_invalid_utf8_is_inconclusive) ... ok\ntest_revert_transport_and_invalid_saved_interpretation (test_return_lens.ReturnLensTests.test_revert_transport_and_invalid_saved_interpretation) ... ok\ntest_saved_real_zto_and_context (test_return_lens.ReturnLensTests.test_saved_real_zto_and_context) ... ok\ntest_static_noncanonical_values (test_return_lens.ReturnLensTests.test_static_noncanonical_values) ... ok\ntest_static_tuple (test_return_lens.ReturnLensTests.test_static_tuple) ... ok\ntest_wrong_layout_extra_and_truncated_bytes (test_return_lens.ReturnLensTests.test_wrong_layout_extra_and_truncated_bytes) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.003s\n\nOK\n"
+    }
+  ],
+  "demo_exit": 0,
+  "demo_value": "304756253603277900345322340"
+}

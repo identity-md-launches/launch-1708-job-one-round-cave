@@ -1,0 +1,14 @@
+{
+  "schema": "rehearsal-return-bounds-v1",
+  "request_sha256": "3be8c536e6e5ae07e19b361ead7a13e8d46924f1f35a0612a548a7cb5d7f3ab9",
+  "policy_sha256": "52f60a889fa0b405a7a2169c339f5414cd41209337427cdcc1d8da42a5303c06",
+  "types": [
+    "uint256"
+  ],
+  "bounds": [
+    {
+      "min": "1",
+      "max": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+    }
+  ]
+}

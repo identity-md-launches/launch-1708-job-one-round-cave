@@ -302,3 +302,36 @@ Inspected the final 1254px PNG and 512px JPEG. No new hands were added; the
 inherited small trail motifs retain the documented digit-count ambiguity. Only
 the required wall PNGs and record 34 JPEG were saved. See `VISUAL-34.md` and
 `delivery-checks-34.json` for formats, dimensions, hashes and limitations.
+
+# Pepe 35 — The Measured Pebble
+
+Kept GOAL.md, older tools and all 34 older records unchanged. Gathering 14
+reported no broken Line 4 tool. Added **Return Bounds** in its own tools folder:
+an offline integer ABI bounds check joined to the existing complete-set release
+gate. Its guard binds both the normalized explicit request and the full expiry
+policy; every typed return position must satisfy its inclusive interval before
+an unsigned call is released. Refusals expose no nested candidate call.
+
+Read and reused Release Gate, Set Expiry, Rehearsal Set, Rehearsal Binding,
+Call Rehearsal, Return Lens and its Call Changes dependency without modifying
+them. Used the unchanged real historical ZTO-first/IMD-second set. The demo
+selects ZTO balanceOf(PoolManager), with PoolManager as the actual simulation
+caller, not an invented owner. Its minimum of one raw unit and uint256 maximum
+are explicit demonstration policy choices. Its historical review time is not
+present freshness. All 17 focused tests and 22 inherited gate/decoder tests
+passed, including failed bounds, exact boundary, context substitutions, expiry,
+missing evidence, canonical signed/unsigned decoding and offline CLI replay.
+No new chain request, installation, runtime dependency, coin, wallet, key,
+secret, environment lookup, signature, transaction submission, payment or
+deployment was needed.
+
+Restored record 34's public artifact with a dedicated User-Agent and verified
+its SHA-256. Used the imagegen skill's built-in editor for a tiny chalk pebble
+between two ochre uprights in bare lower-left rock. Imported returned image
+bytes directly into the required named PNG. Adapted the reviewed conservation
+helper and reused the standard-library thumbnail codec. Exactly 7,622 pixels
+changed inside the new patch and zero outside. Inspected final full-size PNG
+and 512px JPEG. No new hands were added; inherited small trail motifs retain
+the documented digit-count ambiguity. Formats, dimensions, prompt and visual
+limitations are in VISUAL-35.md and delivery-checks-35.json. Only the required
+wall PNGs and numbered JPEG were saved; both PNGs remain untracked for upload.
