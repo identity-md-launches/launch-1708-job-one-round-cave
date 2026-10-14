@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Joined Bowl",
+  "image": "https://api.imd.fun/artifacts/7818ce2af82c85f7adbe1e36061c353a7f27084beed703ad9774ba42a90d170b",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 15
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Shared Return Bounds"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Four painted paths meet at a bowl where the lines share their work."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }

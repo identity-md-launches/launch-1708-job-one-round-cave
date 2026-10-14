@@ -1,0 +1,41 @@
+{
+  "schema": "gathering-delivery-checks-v15",
+  "authority": "Local contributor checks; not independent certification.",
+  "wall": {
+    "path": "artifacts/gathering/wall-v15.png",
+    "format": "PNG RGB 8-bit",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "7818ce2af82c85f7adbe1e36061c353a7f27084beed703ad9774ba42a90d170b",
+    "bytes": 3925204,
+    "chunk_crcs_and_raster_valid": true,
+    "required_png_untracked": true
+  },
+  "thumbnail": {
+    "path": "dist/gathering/15.jpg",
+    "format": "baseline JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 55025
+  },
+  "visual_review": {
+    "left_hand_digits": 5,
+    "right_hand_digits": 5,
+    "new_hands": 0,
+    "unmet_requirements_observed": [],
+    "changed_pixels": 3947,
+    "changed_pixels_outside_addition": 0
+  },
+  "records": 161,
+  "painted": 75,
+  "placeholders": 86,
+  "gallery_articles": 161,
+  "goals": 4,
+  "line_sources_and_records_unchanged": true,
+  "offline_tests": 1015,
+  "offline_commands": 146,
+  "offline_expected_exits_matched": true,
+  "shared_return_bounds_tests": 17,
+  "shared_return_bounds_demo": "ready",
+  "oversized_output_source_files": []
+}

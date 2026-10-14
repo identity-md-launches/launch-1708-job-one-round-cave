@@ -1,0 +1,63 @@
+{
+  "schema": "line-tool-promotion-provenance-v1",
+  "tool": "Line 4 Return Bounds",
+  "copy_relationships": [
+    {
+      "source": "line-4/tools/return-bounds/return_bounds.py",
+      "source_sha256": "3e02b5163aa8c6a589bff805ab918efd744568c13c5ab930d1a7d017d7e09ab0",
+      "shared_copy": "shared/return-bounds/return_bounds.py",
+      "shared_sha256": "42d1840571025ad8bfd3713e4e9bd1a7297ded90b66307987fce52dd34d1d477",
+      "identical": false
+    },
+    {
+      "source": "line-4/tools/return-lens/return_lens.py",
+      "source_sha256": "82d0c507a5c194a7160d9e58dbe03688a0c11bde57b95a2bc98a7fc619152bd5",
+      "shared_copy": "shared/return-bounds/return_lens.py",
+      "shared_sha256": "4aaff1ee3c2fd6eba4d54104eef1e8719b898a695575f487e0ef466c3df84d0b",
+      "identical": false
+    },
+    {
+      "source": "line-4/tools/call-changes/call_changes.py",
+      "source_sha256": "7db818814b588991ca9fe8032f8afac24361eabd4927b565c784d6f4dd794536",
+      "shared_copy": "shared/return-bounds/call_changes.py",
+      "shared_sha256": "7db818814b588991ca9fe8032f8afac24361eabd4927b565c784d6f4dd794536",
+      "identical": true
+    },
+    {
+      "source": "line-4/tools/call-changes/rehearse_core.py",
+      "source_sha256": "ddb70529bce2d13f0ca79be281446149d150432004f552ef989fbe23385314f9",
+      "shared_copy": "shared/return-bounds/rehearse_core.py",
+      "shared_sha256": "ddb70529bce2d13f0ca79be281446149d150432004f552ef989fbe23385314f9",
+      "identical": true
+    },
+    {
+      "source": "line-4/tools/return-bounds/test_return_bounds.py",
+      "source_sha256": "43d29d0b913d4716ea3615516d7cd614b6aeaf00fdc44a1afc465f4313500dfc",
+      "shared_copy": "shared/return-bounds/test_return_bounds.py",
+      "shared_sha256": "43d29d0b913d4716ea3615516d7cd614b6aeaf00fdc44a1afc465f4313500dfc",
+      "identical": true
+    },
+    {
+      "source": "line-4/tools/return-bounds/zto-balance-request.json",
+      "source_sha256": "2c7fc1f274124d279fb6cb9bbf207262e4b95abf6a8a252e68ae707cc4565315",
+      "shared_copy": "shared/return-bounds/zto-balance-request.json",
+      "shared_sha256": "2c7fc1f274124d279fb6cb9bbf207262e4b95abf6a8a252e68ae707cc4565315",
+      "identical": true
+    },
+    {
+      "source": "line-4/tools/return-bounds/zto-balance-guard.json",
+      "source_sha256": "720155cc3b655c5316c6b232a7d18e36802a32c0389e61c0388694434be80f6b",
+      "shared_copy": "shared/return-bounds/zto-balance-guard.json",
+      "shared_sha256": "720155cc3b655c5316c6b232a7d18e36802a32c0389e61c0388694434be80f6b",
+      "identical": true
+    },
+    {
+      "source": "line-4/tools/return-bounds/demo-result.json",
+      "source_sha256": "906c940b56ed826dd4d7040820c15d75dff415f624654cf196278e5317701fec",
+      "shared_copy": "shared/return-bounds/demo-result.json",
+      "shared_sha256": "906c940b56ed826dd4d7040820c15d75dff415f624654cf196278e5317701fec",
+      "identical": true
+    }
+  ],
+  "adaptation": "Return Bounds uses the local copies of Return Lens, Call Changes and its rehearsal core. Its proof/freshness gates reuse the existing shared Release Gate, Set Expiry and Rehearsal Set."
+}

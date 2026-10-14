@@ -1,27 +1,29 @@
 {
-  "schema": "gathering-visual-preservation-v14",
-  "source_sha256": "96c002a235ee9c58401b348539d214eb436fce051e7b6791322b7485130ad701",
-  "image_tool_output_sha256": "dbd1297a83d5116b7f9ce29178ce873f99453e85e04ddfbfd4dc52573f9491e2",
-  "output_sha256": "d62f6bea6b69d23446f89c77c94fd84919029f3524567f744d8f1c6229da92ee",
+  "schema": "gathering-visual-preservation-v15",
+  "source_sha256": "d62f6bea6b69d23446f89c77c94fd84919029f3524567f744d8f1c6229da92ee",
+  "image_tool_output_sha256": "d9c18935f4c77d52b3a87362dab4c6d00c0847ff08713ae3eeca8101d1406fd2",
+  "output_sha256": "7818ce2af82c85f7adbe1e36061c353a7f27084beed703ad9774ba42a90d170b",
   "format": "PNG RGB 8-bit",
   "width": 1254,
   "height": 1254,
   "addition_rectangle": [
-    310,
-    548,
-    413,
-    675
+    680,
+    1035,
+    930,
+    1200
   ],
-  "changed_pixels": 4944,
+  "changed_pixels": 3947,
   "changed_pixels_outside_addition": 0,
   "pigment_pixels": {
-    "red_ochre": 4480,
-    "chalk": 464
+    "red_ochre": 2286,
+    "yellow_ochre": 850,
+    "chalk": 555,
+    "charcoal": 256
   },
   "ancestral_pigment_intersects_addition": false,
   "left_hand_digits": 5,
   "right_hand_digits": 5,
   "new_hands": 0,
   "unmet_visual_requirements_observed": [],
-  "review_limits": "Subjective motif and digit review; exact conservation outside the new bare-rock patch is measured."
+  "review_limits": "Visual review of the complete wall and motif; pixel equality measured outside the localized addition rectangle."
 }
