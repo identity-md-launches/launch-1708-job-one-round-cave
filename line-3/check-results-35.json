@@ -1,0 +1,96 @@
+{
+  "suites": [
+    {
+      "tool": "code-ancestry",
+      "exit": 0,
+      "tests": 23,
+      "stderr": null
+    },
+    {
+      "tool": "code-call-query",
+      "exit": 0,
+      "tests": 12,
+      "stderr": null
+    },
+    {
+      "tool": "code-call-routes",
+      "exit": 0,
+      "tests": 11,
+      "stderr": null
+    },
+    {
+      "tool": "code-calls",
+      "exit": 0,
+      "tests": 24,
+      "stderr": null
+    },
+    {
+      "tool": "code-changes",
+      "exit": 0,
+      "tests": 10,
+      "stderr": null
+    },
+    {
+      "tool": "code-constants",
+      "exit": 0,
+      "tests": 16,
+      "stderr": null
+    },
+    {
+      "tool": "code-delta",
+      "exit": 0,
+      "tests": 21,
+      "stderr": null
+    },
+    {
+      "tool": "code-lens",
+      "exit": 0,
+      "tests": 16,
+      "stderr": null
+    },
+    {
+      "tool": "code-metadata",
+      "exit": 0,
+      "tests": 23,
+      "stderr": null
+    },
+    {
+      "tool": "code-opcodes",
+      "exit": 0,
+      "tests": 6,
+      "stderr": null
+    },
+    {
+      "tool": "code-proof",
+      "exit": 0,
+      "tests": 30,
+      "stderr": null
+    },
+    {
+      "tool": "code-review",
+      "exit": 0,
+      "tests": 19,
+      "stderr": null
+    },
+    {
+      "tool": "code-routes",
+      "exit": 0,
+      "tests": 25,
+      "stderr": null
+    },
+    {
+      "tool": "code-set",
+      "exit": 0,
+      "tests": 17,
+      "stderr": null
+    },
+    {
+      "tool": "code-surface",
+      "exit": 0,
+      "tests": 25,
+      "stderr": null
+    }
+  ],
+  "tests_passed": 278,
+  "all_passed": true
+}

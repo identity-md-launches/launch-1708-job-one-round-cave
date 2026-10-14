@@ -1,0 +1,30 @@
+{
+  "record": 35,
+  "wall": {
+    "path": "artifacts/line-3/wall-v15.png",
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 4021047,
+    "sha256": "a9b8f042ac23007e83f4aa383d201e7dfa1a0385a636940d2a460744e1873227",
+    "untracked": true
+  },
+  "mirror_identical": true,
+  "jpeg": {
+    "path": "dist/line-3/35.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 60771
+  },
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "paths_in_scope": true,
+  "new_files_under_100KB_outside_artifacts": true,
+  "visual_review": "line-3/VISUAL-35.md",
+  "unmet_visual_requirements": []
+}

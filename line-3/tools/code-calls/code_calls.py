@@ -46,13 +46,18 @@ BINARY = {
 }
 
 
-def scan(code):
+def scan(code, requested_pcs=()):
     """Start each linear segment with an unknown incoming stack prefix.
 
     Constants describe the target operand IF these instructions execute in this
     order without an exception. No CFG edges, memory or storage are simulated.
     JUMPDEST and control transfers discard all preceding stack knowledge.
     """
+    requested_pcs = list(requested_pcs)
+    lens.require(len(requested_pcs) <= 32
+                 and all(type(pc) is int and 0 <= pc < lens.MAX_CODE for pc in requested_pcs)
+                 and len(set(requested_pcs)) == len(requested_pcs),
+                 'query PCs must be up to 32 distinct integers from 0 to 24575')
     lens.require(isinstance(code, bytes) and 0 < len(code) <= lens.MAX_CODE,
                  'runtime must contain 1 to 24576 bytes')
     lens.require(code[0] != 0xef, '0xef-prefixed code requires a different execution model')
@@ -131,13 +136,19 @@ def scan(code):
             segment_start = pc + 1 + len(operand)
             resets += 1
     resolved = sum(item['target_status'] == 'locally-constant' for item in findings)
-    return {'recognized_solidity_metadata': metadata, 'call_instruction_count': len(findings),
+    result = {'recognized_solidity_metadata': metadata, 'call_instruction_count': len(findings),
             'locally_constant_target_count': resolved,
             'unresolved_target_count': len(findings) - resolved,
             'delegation_instruction_count': sum(item['opcode'] in ('CALLCODE', 'DELEGATECALL')
                                                 for item in findings),
             'call_preview': findings[:PREVIEW], 'omitted_call_count': max(0, len(findings) - PREVIEW),
             'knowledge_reset_count': resets}
+    # Explicit queries bypass the preview cap without slicing/rebasing runtime:
+    # PC and CODESIZE must still refer to the original full byte stream.
+    if requested_pcs:
+        by_pc = {item['pc']: item for item in findings}
+        result['queried_calls'] = [by_pc.get(pc) for pc in requested_pcs]
+    return result
 
 
 def inspect(bundle, anchor_hash=None):

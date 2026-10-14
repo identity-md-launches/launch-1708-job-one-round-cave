@@ -1,0 +1,30 @@
+{
+  "ancestor_sha256": "3c7f76ec247884338acda9872790e33316966087a852dc1f2b1afcb4a8dba075",
+  "generated_sha256": "781c1c54319e3af70f5abf757d3847407dcf8a8c7eb3c21f903ad78a86ecc0bf",
+  "wall_sha256": "a9b8f042ac23007e83f4aa383d201e7dfa1a0385a636940d2a460744e1873227",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "addition_box": [
+    630,
+    546,
+    798,
+    645
+  ],
+  "changed_pixels": 3067,
+  "changed_pixels_outside_addition": 0,
+  "thumbnail": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 60771
+  },
+  "manual_review_pending": false,
+  "unmet_visual_requirements": [],
+  "manual_review": "Full PNG and JPEG inspected. Both inherited hands retain five digits; no new hands or text. No unmet visual requirement observed."
+}
