@@ -1,0 +1,37 @@
+{
+  "record_number": 35,
+  "record_shape": "exact",
+  "older_records_changed": false,
+  "goal_byte_identical": true,
+  "wall": {
+    "paths": [
+      "artifacts/line-2/wall-v15.png",
+      "artifacts/line-2/wall.png"
+    ],
+    "format": "PNG RGB8",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 3966049,
+    "sha256": "e1c40eb7b5c9da17cb401992ec03baadcc766ca31b38cc8bc8a5c827bc4e601f",
+    "untracked": true
+  },
+  "preview": {
+    "path": "dist/line-2/35.jpg",
+    "format": "baseline JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 57218
+  },
+  "independent_ancestor_comparison": {
+    "changed_pixels": 4358,
+    "outside_rectangle_changed_pixels": 0
+  },
+  "new_files_within_scope": true,
+  "new_nonartifact_files_at_most_100000_bytes": true,
+  "unmet_visual_requirements": [],
+  "authority": "Local contributor checks, not independent certification"
+}

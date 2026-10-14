@@ -1,0 +1,33 @@
+{
+  "source_sha256": "f8f88eb547f175934a80a47ea39774e7cf949db02e10e6eb60b248d7c2aeb26b",
+  "output_sha256": "e1c40eb7b5c9da17cb401992ec03baadcc766ca31b38cc8bc8a5c827bc4e601f",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "placement": [
+    505,
+    185,
+    135,
+    80
+  ],
+  "changed_pixels": 4358,
+  "outside_placement_unchanged": true,
+  "insert_alpha_bounds": [
+    182,
+    181,
+    1593,
+    670
+  ],
+  "preview": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 57218
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Inspected final complete PNG and JPEG; earth pigments, cave rock and framing retained; no letters, numbers, signature, watermark, borders or prohibited symbols observed. Both inherited Pepe hands and the upper-left hand stencil counted at five digits each. No hand or figure was added."
+}

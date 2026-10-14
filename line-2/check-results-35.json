@@ -1,0 +1,37 @@
+{
+  "suites": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/policy-transition",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit": 0,
+      "output": "test_bad_raw_calldata_refused (test_policy_transition.PolicyTransitionTests.test_bad_raw_calldata_refused) ... ok\ntest_block_interval_controls_both_inputs (test_policy_transition.PolicyTransitionTests.test_block_interval_controls_both_inputs) ... ok\ntest_cli_exits (test_policy_transition.PolicyTransitionTests.test_cli_exits) ... ok\ntest_crossing_even_on_empty_balance (test_policy_transition.PolicyTransitionTests.test_crossing_even_on_empty_balance) ... ok\ntest_empty_policy_and_scan_do_not_pass (test_policy_transition.PolicyTransitionTests.test_empty_policy_and_scan_do_not_pass) ... ok\ntest_exact_ceiling_returns_within (test_policy_transition.PolicyTransitionTests.test_exact_ceiling_returns_within) ... ok\ntest_immutable_and_bound_inputs (test_policy_transition.PolicyTransitionTests.test_immutable_and_bound_inputs) ... ok\ntest_lost_unlisted_pair_blocks_pass (test_policy_transition.PolicyTransitionTests.test_lost_unlisted_pair_blocks_pass) ... ok\ntest_missing_after_is_unknown (test_policy_transition.PolicyTransitionTests.test_missing_after_is_unknown) ... ok\ntest_missing_both_required (test_policy_transition.PolicyTransitionTests.test_missing_both_required) ... ok\ntest_new_measurement_not_crossing (test_policy_transition.PolicyTransitionTests.test_new_measurement_not_crossing) ... ok\ntest_real_replay (test_policy_transition.PolicyTransitionTests.test_real_replay) ... ok\ntest_reduction_still_violates (test_policy_transition.PolicyTransitionTests.test_reduction_still_violates) ... ok\ntest_reverse_chronology_refused (test_policy_transition.PolicyTransitionTests.test_reverse_chronology_refused) ... ok\ntest_same_block_conflict_refused (test_policy_transition.PolicyTransitionTests.test_same_block_conflict_refused) ... ok\ntest_strict_loader (test_policy_transition.PolicyTransitionTests.test_strict_loader) ... ok\ntest_unlisted_has_zero_ceiling (test_policy_transition.PolicyTransitionTests.test_unlisted_has_zero_ceiling) ... ok\ntest_wrong_policy_token_refused (test_policy_transition.PolicyTransitionTests.test_wrong_policy_token_refused) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.073s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/permission-gate",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit": 0,
+      "output": "test_block_interval_is_inclusive (test_permission_gate.GateTests.test_block_interval_is_inclusive) ... ok\ntest_case_normalized_duplicate_pairs_rejected (test_permission_gate.GateTests.test_case_normalized_duplicate_pairs_rejected) ... ok\ntest_corrupt_evidence_is_rejected_not_a_policy_pass (test_permission_gate.GateTests.test_corrupt_evidence_is_rejected_not_a_policy_pass) ... ok\ntest_demo_is_offline_and_matches_delivered_report (test_permission_gate.GateTests.test_demo_is_offline_and_matches_delivered_report) ... ok\ntest_duplicate_json_keys_rejected (test_permission_gate.GateTests.test_duplicate_json_keys_rejected) ... ok\ntest_empty_real_event_scan_never_passes (test_permission_gate.GateTests.test_empty_real_event_scan_never_passes) ... ok\ntest_enforcement_exit_codes_and_json (test_permission_gate.GateTests.test_enforcement_exit_codes_and_json) ... ok\ntest_exact_real_limits_pass_only_measured_pairs (test_permission_gate.GateTests.test_exact_real_limits_pass_only_measured_pairs) ... ok\ntest_integer_precision_and_uint256_boundaries (test_permission_gate.GateTests.test_integer_precision_and_uint256_boundaries) ... ok\ntest_invalid_intervals_rejected (test_permission_gate.GateTests.test_invalid_intervals_rejected) ... ok\ntest_limit_one_unit_below_real_allowance_denies (test_permission_gate.GateTests.test_limit_one_unit_below_real_allowance_denies) ... ok\ntest_missing_required_evidence_overrides_even_known_violation (test_permission_gate.GateTests.test_missing_required_evidence_overrides_even_known_violation) ... ok\ntest_nonethereum_chain_and_boolean_rejected (test_permission_gate.GateTests.test_nonethereum_chain_and_boolean_rejected) ... ok\ntest_oversized_policy_rejected (test_permission_gate.GateTests.test_oversized_policy_rejected) ... ok\ntest_policy_token_mismatch_rejected (test_permission_gate.GateTests.test_policy_token_mismatch_rejected) ... ok\ntest_real_deny_all_exposes_three_permissions_including_empty_balances (test_permission_gate.GateTests.test_real_deny_all_exposes_three_permissions_including_empty_balances) ... ok\ntest_unknown_policy_fields_and_schema_rejected (test_permission_gate.GateTests.test_unknown_policy_fields_and_schema_rejected) ... ok\ntest_unpaired_arguments_are_error (test_permission_gate.GateTests.test_unpaired_arguments_are_error) ... ok\ntest_workspace_path_rejects_external_input (test_permission_gate.GateTests.test_workspace_path_rejects_external_input) ... ok\ntest_zero_address_rejected (test_permission_gate.GateTests.test_zero_address_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.086s\n\nOK\n"
+    }
+  ],
+  "authority": "Local contributor checks only"
+}
