@@ -1,0 +1,35 @@
+{
+  "schema": "zto-target-check-result-v1",
+  "status": "accepted",
+  "snapshot_sha256": "3b86531e4460f2e694b7f824ed5027bf9230a331025d7cbddf0ef759ef560a30",
+  "claim_sha256": "ec4651f1e0bbda99ef8cedaf2ceccbd33472cc62f383d295b45591b533d60c30",
+  "policy_sha256": "6bc4c5bdfe2aa5dfa622c7e82011814f64783f4f88e5ad3443c64aca7fcaaca1",
+  "age_blocks": 10,
+  "reasons": [],
+  "differences": [],
+  "verified_bound": {
+    "chain_id": 1,
+    "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+    "block": {
+      "number": "0x18f8a44",
+      "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+      "timestamp": "0x6ace4457"
+    },
+    "input_token": "ZTO",
+    "output_token": "IMD",
+    "target_output_raw": "100000000000000",
+    "minimum_input_raw": "6605354095186351266",
+    "estimated_output_raw": "101010101010102",
+    "planning_minimum_output_raw": "100000000000000",
+    "previous_input_raw": "6605354095186351265",
+    "previous_minimum_output_raw": "99999999999999",
+    "slippage_bps": 100
+  },
+  "limitations": [
+    "Receiver policy and reference block are supplied trust inputs.",
+    "Digests bind supplied historical RPC evidence, not consensus authenticity or current state.",
+    "Reuses Target/Capacity/Path arithmetic, not an independent numerical implementation.",
+    "No transaction, settlement, transfer, gas or MEV guarantee."
+  ],
+  "mode": "historical_demo"
+}

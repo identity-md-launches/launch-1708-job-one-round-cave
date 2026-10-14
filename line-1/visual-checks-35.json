@@ -1,0 +1,38 @@
+{
+  "ancestor_sha256": "1268dbcf3c6042534e7b53a2488fd0f57f5c809b6e0fe118cf737cffff831171",
+  "generated_motif_sha256": "b285b472cf233ee0f0efb64a81bca794398fbb8d475960599b30abf3404c7d2f",
+  "wall_sha256": "4e6d1cdd13d5a0109e3b76bdf26b2e075af323198885a0aeafa6db6dd34010b2",
+  "wall": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3975809
+  },
+  "jpeg": {
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 55927
+  },
+  "addition_box": [
+    290,
+    755,
+    410,
+    815
+  ],
+  "source_pigment_bounds": [
+    233,
+    151,
+    1394,
+    828
+  ],
+  "changed_pixels_inside": 3332,
+  "changed_pixels_outside": 0,
+  "hand_review": "The inherited large Pepe has four fingers and one thumb on each hand; no hands or prints added.",
+  "unmet_visual_requirements": [],
+  "visual_limitations": [
+    "The new motif is small at 512-pixel thumbnail scale.",
+    "Pixel preservation is measured; aesthetic review is contributor observation."
+  ]
+}

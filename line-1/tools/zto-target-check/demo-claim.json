@@ -1,0 +1,47 @@
+{
+  "schema": "zto-target-report-v1",
+  "chain_id": 1,
+  "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+  "snapshot_sha256": "3b86531e4460f2e694b7f824ed5027bf9230a331025d7cbddf0ef759ef560a30",
+  "block": {
+    "number": "0x18f8a44",
+    "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+    "timestamp": "0x6ace4457"
+  },
+  "source": "https://ethereum-rpc.publicnode.com",
+  "input_token": "ZTO",
+  "output_token": "IMD",
+  "target_output_raw": "100000000000000",
+  "target_output": "0.0001",
+  "ceiling_input_raw": "10000000000000000000",
+  "ceiling_input": "10",
+  "slippage_bps": 100,
+  "minimum_rule": "floor(estimated_output_raw * (10000 - slippage_bps) / 10000)",
+  "bitmap_words": [
+    6,
+    7,
+    8
+  ],
+  "coverage_status": "ceiling_reached",
+  "scope": "Smallest exact input reaching a caller target within this historical snapshot and recorded tick coverage.",
+  "limitations": [
+    "Historical RPC evidence is not a current quote or state proof.",
+    "The target, tolerance and input ceiling are caller choices, not recommendations.",
+    "Coverage boundary is not total pool capacity; no output is inferred beyond it.",
+    "Minimum is a planning number, not an enforced receipt.",
+    "No router settlement, transfer behavior, gas or MEV simulation."
+  ],
+  "maximum_complete_input_raw": "10000000000000000000",
+  "maximum_complete_input": "10",
+  "status": "target_reached",
+  "minimum_input_raw": "6605354095186351266",
+  "minimum_input": "6.605354095186351266",
+  "estimated_output_raw": "101010101010102",
+  "estimated_output": "0.000101010101010102",
+  "planning_minimum_output_raw": "100000000000000",
+  "planning_minimum_output": "0.0001",
+  "previous_input_raw": "6605354095186351265",
+  "previous_estimated_output_raw": "101010101010101",
+  "previous_minimum_output_raw": "99999999999999",
+  "quote_probes": 69
+}

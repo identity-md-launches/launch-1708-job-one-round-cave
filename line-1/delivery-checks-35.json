@@ -1,0 +1,19 @@
+{
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "new_number": 35,
+  "record_shape_valid": true,
+  "wall_sha256": "4e6d1cdd13d5a0109e3b76bdf26b2e075af323198885a0aeafa6db6dd34010b2",
+  "wall_mirrors_identical": true,
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "scope_valid": true,
+  "no_new_source_over_100kb": true,
+  "outputs_left_untracked": true
+}
